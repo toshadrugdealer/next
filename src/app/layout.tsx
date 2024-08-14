@@ -17,6 +17,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link
+        rel="apple-touch-icon-precomposed"
+        sizes="114x114"
+        type="image/svg+xml"
+        href="/logo.png"
+      />
+      <link rel="icon" type="image/svg+xml" href="/logo.png" />
       <body className={metal.className}>
         <div className="flex h-screen text-4xl  flex-col items-center justify-between">
           <Link href="/">HEADER</Link>
