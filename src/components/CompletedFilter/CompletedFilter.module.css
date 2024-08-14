@@ -1,0 +1,18 @@
+.wrapperFilter {
+  display: flex;
+  gap: 5px;
+}
+.wrapperFilter button {
+  min-width: 150px;
+  box-sizing: content-box;
+  background-color: rgb(31, 31, 31);
+  color: #fff;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 88, 88);
+}
+
+.wrapperFilter button:disabled {
+  background-color: rgb(31, 31, 31);
+  border: 2px solid transparent;
+  color: rgb(59, 59, 59);
+}
