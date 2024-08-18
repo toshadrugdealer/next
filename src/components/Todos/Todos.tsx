@@ -33,7 +33,7 @@ export const Todos = () => {
             onChange={() => {
               handlerChangeTodo(todo.id);
             }}
-          />
+          />{" "}
           {todo.title}
         </div>
       ))}
